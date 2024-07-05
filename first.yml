@@ -1,0 +1,8 @@
+---
+# simple PB 
+- name : First Baisc Playbook
+  hosts: localhost
+  
+  tasks:
+  - name: Test Conectivity
+    ping:
